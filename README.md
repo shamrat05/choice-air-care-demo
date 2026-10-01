@@ -1,26 +1,22 @@
-# Choice Air Care — Demo Homepage
+# Choice Air Care — high-fidelity homepage demo
 
-A responsive, conversion-focused HVAC homepage built as a sales demo.
+This version is rebuilt to closely match the generated reference mockup section-by-section.
 
 ## Files
-- `index.html` — page structure and content
-- `styles.css` — responsive design, components, animations
-- `script.js` — mobile navigation, reveal effects, demo form handling
+- `index.html` — page structure and copy
+- `styles.css` — responsive high-fidelity styling
+- `script.js` — mobile menu + demo form behavior
+- `assets/` — visual crops from the generated reference image, used to keep the coded page visually consistent with the mockup
+- `reference.png` — original generated mockup
 
-## Run locally
-Just open `index.html` in a browser.
+## Run
+Open `index.html` directly, or run a static server in this folder.
 
-For a local web server:
-
+Example:
 ```bash
-python -m http.server 8080
+python3 -m http.server 8080
 ```
-
 Then open `http://localhost:8080`.
 
-## Before publishing
-1. Replace demo review copy with verified current customer reviews.
-2. Verify phone number, service areas, offer language, guarantees and financing claims.
-3. Connect the form to your preferred backend/CRM.
-4. Replace the CSS illustration with real approved company/team photography if available.
-5. Preserve existing SEO URLs if this replaces an established site.
+## Before showing as a production proposal
+Verify all business claims, current Google review counts/quotes, BBB statements, financing details, photos, legal/footer copy and form destination with the business owner. The reviews shown here are demo copy.
